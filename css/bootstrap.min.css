@@ -10,22 +10,22 @@
 div.animus
 {
   opacity: 0;
-  transition: .5s ease-in-out;
+  -webkit-transition: .5s ease-in-out;
 }
 
 div.animus:nth-child(odd) {
-  transform: translate3d(-150px, 0, 0);
+  -webkit-transform: translate3d(-150px, 0, 0);
 }
 
 div.animus:nth-child(even) {
-  transform: translate3d(150px, 0, 0);
+  -webkit-transform: translate3d(150px, 0, 0);
 }
 
 
 div.animus.active {
   opacity: 1;
-  transition: .8s ease-in-out;
-  transform: translate3d(0, 0, 0);
+  -webkit-transition: .8s ease-in-out;
+  -webkit-transform: translate3d(0, 0, 0);
 }
 
 div.animus3
