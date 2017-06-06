@@ -76,6 +76,14 @@ div.animus4.active {
 	color: #fff !important;
 }
 
+h2.shades{
+	position: relative;
+    top: -13vw;
+    font-size: 4vw;
+    color: #fff;
+    padding-right: 10px;
+}
+
 hr.line
 {
   border-width: 10px;
@@ -201,6 +209,9 @@ a.category{
    }
    .no-margin{
    	padding-top: 50px !important;
+   }
+   h2.animation{
+   	top: 60px !important;
    }
 
 }
