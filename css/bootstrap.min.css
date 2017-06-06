@@ -199,5 +199,8 @@ a.category{
    h2 {
       font-size: 2em;
    }
+   .no-margin{
+   	padding-top: 20px !important;
+   }
 
 }
