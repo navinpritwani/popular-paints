@@ -204,3 +204,10 @@ a.category{
    }
 
 }
+
+@media only screen and (max-width: 375px){
+
+.no-margin{
+   	padding-top: 80px !important;
+   }	
+}
