@@ -19,7 +19,7 @@
     $.fn.dropdownHover = function (options) {
         // don't do anything if touch is supported
         // (plugin causes some issues on mobile)
-        if('ontouchstart' in document) return this; // don't want to affect chaining
+        if('ontouchstart' in document) return ; // don't want to affect chaining
 
         // the element we really care about
         // is the dropdown-toggle's parent
@@ -31,7 +31,7 @@
                 defaults = {
                     delay: 500,
                     hoverDelay: 0,
-                    instantlyCloseOthers: true
+                    instantlyCloseOthers: false
                 },
                 data = {
                     delay: $(this).data('delay'),
@@ -111,7 +111,7 @@
                     $allDropdowns.find(':focus').blur();
 
                     if(settings.instantlyCloseOthers === true)
-                        $allDropdowns.removeClass('open');
+                    $allDropdowns.removeClass('open');
                     
                     // clear timer for hover event
                     window.clearTimeout(timeoutHover);

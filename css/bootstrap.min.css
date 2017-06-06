@@ -24,7 +24,7 @@ div.animus:nth-child(even) {
 
 div.animus.active {
   opacity: 1;
-  -webkit-transition: .8s ease-in-out;
+  -webkit-transition: 1s ease-in-out;
   -webkit-transform: translate3d(0, 0, 0);
 }
 
@@ -45,13 +45,13 @@ div.animus3:nth-child(even) {
 
 div.animus3.active {
   opacity: 1;
-  transition: .8s ease-in-out;
+  transition: 1s ease-in-out;
   transform: translate3d(0, 0, 0);
 }
 div.animus2,
 div.animus4{
   opacity: 0;
-  transition: .8s ease-in-out;
+  transition: 0.8s ease-in-out;
 }
 
 div.animus2:nth-child(odd),
@@ -68,7 +68,7 @@ div.animus4:nth-child(even) {
 div.animus2.active,
 div.animus4.active {
   opacity: 1;
-  transition: .5s ease-in-out;
+  transition: 1s ease-in-out;
   transform: translate3d(0, 0, 0);
 }
 
@@ -148,7 +148,17 @@ a.category{
     color: #d9534f;
 }
 @media (min-width: 768px)
-
+{}
 .img {
 	width: 110px !important;
 };
+}
+
+#fade img {
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+}​
+
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
