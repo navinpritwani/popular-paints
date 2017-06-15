@@ -19,7 +19,7 @@
     $.fn.dropdownHover = function (options) {
         // don't do anything if touch is supported
         // (plugin causes some issues on mobile)
-        if('ontouchstart' in document) return ; // don't want to affect chaining
+        if('ontouchstart' in document) return this; // don't want to affect chaining
 
         // the element we really care about
         // is the dropdown-toggle's parent
@@ -31,7 +31,7 @@
                 defaults = {
                     delay: 500,
                     hoverDelay: 0,
-                    instantlyCloseOthers: false
+                    instantlyCloseOthers: true
                 },
                 data = {
                     delay: $(this).data('delay'),
@@ -127,4 +127,5 @@
         // apply dropdownHover to all elements with the data-hover="dropdown" attribute
         $('[data-hover="dropdown"]').dropdownHover();
     });
+
 })(jQuery, window);
