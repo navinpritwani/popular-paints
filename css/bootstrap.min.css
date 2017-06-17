@@ -248,6 +248,9 @@ img.mvv{
 .mv3{
 	margin-bottom: -80px !important;
 }
+.mv2{
+	margin-top: -60% !important;
+}
 }
 
 @media only screen and (max-width: 375px){
