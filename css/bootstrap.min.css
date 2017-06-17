@@ -218,11 +218,26 @@ a.category{
     padding-left: 20px !important;
 }
 .mobile-view{
+    margin: auto;
     padding: 30px;
+    display: block;
 }
 .emerald{
+	
     visibility: hidden;
     margin-top: 0px !important;
+}
+.mv{
+	margin-top: -300px !important;
+}
+.img-holder{
+	margin-top: -90px !important;
+}
+h2.shades{
+	top: -16vw !important;
+}
+p.stir{
+	font-size: 18px !important;
 }
 }
 
