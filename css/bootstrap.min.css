@@ -215,6 +215,8 @@ a.category{
    	top: 60px !important;
    }
    p.product-description{
+   	font-weight: bold;
+   	font-size: 16px !important;
     padding-left: 20px !important;
 }
 .mobile-view{
@@ -234,10 +236,17 @@ a.category{
 	margin-top: -90px !important;
 }
 h2.shades{
-	top: -16vw !important;
+	font-size: 40px !important;
+    top: -25vw !important;
 }
 p.stir{
 	font-size: 18px !important;
+}
+img.mvv{
+	height: 90px !important;
+}
+.mv3{
+	margin-bottom: -80px !important;
 }
 }
 
