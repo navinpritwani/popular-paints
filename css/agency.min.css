@@ -27,6 +27,20 @@ h3.description{
 .img-holder{
 margin-top: -50px;
 }
+h5.type{
+  letter-spacing: 2px;
+    text-transform: none;
+    margin: 0;
+    padding: 10px 0;
+    font-weight: 700;
+    font-size: 40px;
+    color: #2c3e50;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    text-align: center;
+    font-family: cookie;
+}
 @media (max-width: 768px){
 
 img.image-product{
