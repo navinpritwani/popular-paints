@@ -288,7 +288,7 @@ body > section {
   background-color: #fff;
 }
 .wet-asphalt a:not(.btn) {
-  color: #bdc3c7;
+  color: #555;
 }
 .wet-asphalt a:not(.btn):hover {
   color: #d9534f;
@@ -902,7 +902,7 @@ ul.tag-cloud li {
   display: inline-block;
 }
 #bottom {
-  color: #bdc3c7;
+  color: #555;
 }
 #bottom h4 {
 	color: #d9534f;

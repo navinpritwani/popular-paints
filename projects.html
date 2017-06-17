@@ -43,15 +43,15 @@
                     <li><a href="about-us.html">About Us</a></li>
                     <li class="active"><a href="project.html">Projects</a></li>
                     <li class="dropdown"><!--imp-->
-                            <a class="dropdown-toggle js-activated" href="product.html">Products<b class="caret"></b></a>
+                            <a class="dropdown-toggle js-activated" data-toggle="dropdown" href="product.html">Products<b class="caret"></b></a>
                             <ul class="dropdown-menu">
                               <li><a href="product-interior.html" style="color: #fff">Interior Emulsion</a></li>
-                              <li><a href="#" style="color: #fff">Exterior Emulsion</a></li>
-                             <li><a href="#" style="color: #fff">Wall Putty</a></li>
-                             <li><a href="#" style="color: #fff">Under Coats</a></li>
-                              <li><a href="#" style="color: #fff">Wood Coats</a></li>
-                              <li><a href="#" style="color: #fff">Hyderated Lime</a></li>
-                              <li><a href="#" style="color: #fff">Distemper</a></li>
+                              <li><a href="product-exterior.html" style="color: #fff">Exterior Emulsion</a></li>
+                             <li><a href="product-wallputty.html" style="color: #fff">Wall Putty</a></li>
+                             <li><a href="product-undercoats.html" style="color: #fff">Under Coats</a></li>
+                              <li><a href="product-woodcoats.html" style="color: #fff">Wood Coats</a></li>
+                              <li><a href="product-hyderatedlime.html" style="color: #fff">Hyderated Lime</a></li>
+                              <li><a href="product-distemper.html" style="color: #fff">Distemper</a></li>
                             </ul>
                     </li>
                     <li><a href="career.html">Career</a></li>
@@ -209,27 +209,58 @@
                     </div>
                 </div>
             </div>
+            <hr>
+            <div class="row">
+                <div class="col-lg-12">
+                            <div class="center">
+                            <h2>Enquiry Form</h2>
+                            </div>
+                            <div class="status alert alert-success" style="display: none"></div>
+                            <form id="main-contact-form" class="contact-form" name="contact-form" method="post" action="sendemail.php" role="form">
+                                <div class="row">
+                                    <div class="col-sm-5">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" required="required" placeholder="First Name">
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" required="required" placeholder="Last Name">
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" required="required" placeholder="Email address">
+                                        </div>
+                                        <div class="form-group">
+                                            <button type="submit" class="preview btn btn-danger" style="width: 100%; font-size: 20px;">Send Message</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-7">
+                                        <textarea name="message" id="message" required="required" class="form-control" rows="8" placeholder="Your Questions or Enquiries"></textarea>
+                                    </div>
+                                </div>
+                            </form>
+                </div>
+            </div>
         </div>
     </section><!--/#services-->
 
     <section id="bottom" class="wet-asphalt">
         <div class="container">
+            <hr> <div class="gap"></div>
             <div class="row">
                 <div class="col-md-3 col-sm-6">
-                    <h4>About Us</h4>
-                    <p>The Popular Paint and Chemicals is one of the leading business conglomerates in painting group of companies.</p>
-                    <p>What began in 1984 as a humble, family run trading enterprises by Founder Mansoor Zafar & Co-Founder Shabbir Zafar has today grown into a professional company led by a highly qualified & experienced senior management team. Constant Innovation, Strategic partnerships & customer focused approach have been the cornerstone of the companies phenomenal growth.</p>
+                    <h4>About Us</h4><!--imp-->
+                        <p>The Popular Paint and Chemicals is one of the leading business conglomerates in painting group of companies.</p>
+                        <p>What began in 1984 as a humble, family run trading enterprises by Founder Mansoor Zafar & Co-Founder Shabbir Zafar has today grown into a professional company led by a highly qualified & experienced senior management team. Constant Innovation, Strategic partnerships & customer focused approach have been the cornerstone of the companies phenomenal growth.</p>
                 </div><!--/.col-md-3-->
 
                 <div class="col-md-3 col-sm-6">
-                    <h4>Company</h4>
+                    <h4>Company</h4><!--imp-->
                     <div>
                         <ul class="arrow">
-                            <li><a href="#">The Company</a></li>
-                            <li><a href="#">Our Team</a></li>
-                            <li><a href="#">Our Partners</a></li>
+                            <li><a href="#">Company Overview</a></li>
+                            <li><a href="#">Meet The Team</a></li>
+                            <li><a href="#">Our Awesome Partners</a></li>
                             <li><a href="#">Our Services</a></li>
-                            <li><a href="#">Faq</a></li>
+                            <li><a href="#">Frequently Asked Questions</a></li>
                             <li><a href="#">Conatct Us</a></li>
                             <li><a href="#">Privacy Policy</a></li>
                             <li><a href="#">Terms of Use</a></li>
@@ -239,14 +270,14 @@
                 </div><!--/.col-md-3-->
 
                 <div class="col-md-3 col-sm-6">
-                    <h4>Media & Events</h4>
+                    <h4>Media & Events </h4><!--imp-->
                     <div>
                         <div class="media">
                             <div class="pull-left">
                                 <img src="images/blog/thumb1.jpg" alt="">
                             </div>
                             <div class="media-body">
-                                <span class="media-heading"><a href="#">Pellentesque habitant morbi tristique senectus</a></span>
+                                <span class="media-heading"><a href="blog-item.html">Sponsorship of Dance Chhattisgarh Dance 2016</a></span>
                                 <small class="muted">Posted 17 Aug 2013</small>
                             </div>
                         </div>
@@ -271,7 +302,7 @@
                     </div>  
                 </div><!--/.col-md-3-->
 
-                <div class="col-md-3 col-sm-6">
+                <div class="col-md-3 col-sm-6"><!--imp-->
                     <h4>Address</h4>
                     <address>
                         <strong>Popular Paints & Chemicals</strong><br>
@@ -279,15 +310,8 @@
                         Amanakka, Raipur 492001<br>
                         <abbr title="Phone">P:</abbr> 99999 88888
                     </address>
-                    <h4>Newsletter</h4>
-                    <form role="form">
-                        <div class="input-group">
-                            <input type="text" class="form-control" autocomplete="off" placeholder="Enter your email">
-                            <span class="input-group-btn">
-                                <button class="btn btn-danger" type="button">Go!</button>
-                            </span>
-                        </div>
-                    </form>
+                    <h4>Get Our Product Catalogue</h4>
+                <a href="download/catalogue.pdf" download="Product Catalogue - Popular Paints"> <button class="preview btn btn-danger" type="button">Download</button></a>
                 </div> <!--/.col-md-3-->
             </div>
         </div>

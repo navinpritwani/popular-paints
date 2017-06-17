@@ -7,7 +7,6 @@
 	position: relative;
     padding: 40px;
     /* width: 300px; */
-    margin: auto;
     max-width: 400px;
     top: 50px;
     display: block;
@@ -18,6 +17,15 @@ span.features{
     color: #35234F;
 }
 
+h3.description{
+    margin: 10px;
+    font-size: 35px;
+    font-family: helvetica;
+    font-weight: bold;
+}
+.img-holder{
+margin-top: -50px;
+}
 @media (min-width: 768px)
 .img {
 	width: 110px !important;

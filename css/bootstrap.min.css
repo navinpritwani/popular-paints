@@ -111,7 +111,7 @@ p.product-description{
     text-align: left;
     background-color: #d9534f;
     padding-left: 30px;
-    border-radius: 36px;
+    border-radius: 0px 20px;
     line-height: 30px;
     font-family: helvetica;
     padding-bottom: 10px;
