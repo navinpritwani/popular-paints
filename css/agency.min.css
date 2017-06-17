@@ -27,18 +27,8 @@ h3.description{
 margin-top: -50px;
 }
 @media (min-width: 768px){
-.img {
-	width: 110px !important;
-}
-.emerald{
-    visibility: hidden;
-}
-p.product-description{
-    padding-left: 20px !important;
-}
-.mobile-view{
-    padding: 30px;
-}
+
+
 }
 @media and screen only(max-width: 768px)
 
