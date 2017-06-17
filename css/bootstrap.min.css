@@ -251,6 +251,9 @@ img.mvv{
 .mv2{
 	margin-top: -60% !important;
 }
+.mv4{
+	visibility: visible !important;
+}
 }
 
 @media only screen and (max-width: 375px){
