@@ -156,10 +156,11 @@ a.category{
     color: #d9534f;
 }
 @media (min-width: 768px)
-{}
+{
 .img {
 	width: 110px !important;
-};
+}
+
 }
 
 #fade img {
@@ -213,7 +214,18 @@ a.category{
    h2.animation{
    	top: 60px !important;
    }
-
+   p.product-description{
+    padding-left: 20px !important;
+}
+.mobile-view{
+    padding: 30px;
+}
+.img {
+	width: 110px !important;
+}
+.emerald{
+    visibility: hidden;
+}
 }
 
 @media only screen and (max-width: 375px){
