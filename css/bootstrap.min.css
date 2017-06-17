@@ -220,11 +220,9 @@ a.category{
 .mobile-view{
     padding: 30px;
 }
-.img {
-	width: 110px !important;
-}
 .emerald{
     visibility: hidden;
+    margin-top: 0px !important;
 }
 }
 
