@@ -47,3 +47,7 @@ img.image-product{
     max-width: 350px !important;
 }
 }
+
+a.back-button{
+  padding-left: 40px !important;
+}

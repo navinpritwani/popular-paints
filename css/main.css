@@ -1189,5 +1189,7 @@ h5.type{
     text-align: center;
     font-family: cookie;
 }
-
+a.back-button{
+  padding-left: 40px;
+}
 

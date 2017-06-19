@@ -97,6 +97,8 @@ $(document).ready(function() {
   	$("#modal-gallery").modal("show");
   });
 
+   // Footer links
+   document.getElementById("footer-home").href = "../index.html";
 });
 
 });
