@@ -182,6 +182,16 @@ function productSearch(name){
 	            	document.getElementById('coverage').src='images/PRODUCTS-29.png';
 	            	document.getElementById('shelf-life').innerHTML = "Shelf life : 3 Years From Date of Manufacture In Original Tightly Closed Containers Away From Direct Sunlight and Excessive Heat";
 	            }
+            	else if(name === 'manglam-gold'){
+	                document.getElementById('productName').innerHTML ="Manglam Gold";
+	                document.getElementById('product-img').src='product-images/full/manglam-gold.png';
+	            	document.getElementById('productDescription').innerHTML = "Rose cement paint for exterior use with water resistance";
+	            	document.getElementById('packs').src='images/packs6.png';
+	            	document.getElementById('warranty').src='images/warranty-no.png';
+	            	document.getElementById('wash').src='images/wash-high.png';
+	            	document.getElementById('coverage').src='images/PRODUCTS-29.png';
+	            	document.getElementById('shelf-life').innerHTML = "Shelf life : 3 Years From Date of Manufacture In Original Tightly Closed Containers Away From Direct Sunlight and Excessive Heat";
+	            }
             document.getElementById('product-description').style.display='block';
             
         }

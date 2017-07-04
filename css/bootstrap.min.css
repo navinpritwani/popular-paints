@@ -257,6 +257,9 @@ img.mvv{
 }
 }
 
+.col-xs-6{
+	padding-right: 6px !important;
+}
 @media only screen and (max-width: 375px){
 
 .no-margin{
