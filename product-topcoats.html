@@ -46,14 +46,14 @@
                     <li class="dropdown active">
 							<a href="portfolio.html" class="dropdown-toggle js-activated" data-toggle="dropdown" >Products<b class="caret"></b></a>
 							<ul class="dropdown-menu">
-							  <li class="active"><a href="#" style="color:#fff !important; background-color:#b94a48">Interior Emulsion</a></li>
-                              <li><a href="product-exterior.html" style="color: #fff">Exterior Emulsion</a></li>
+							  <li><a href="product-interior.html" style="color:#fff">Interior Emulsion</a></li>
+                              <li ><a href="product-exterior.html" style="color: #fff">Exterior Emulsion</a></li>
                              <li><a href="product-wallputty.html" style="color: #fff">Wall Putty</a></li>
                              <li><a href="product-undercoats.html" style="color: #fff">Under Coats</a></li>
                               <li><a href="product-woodcoats.html" style="color: #fff">Wood Coats</a></li>
                               <li><a href="product-hyderatedlime.html" style="color: #fff">Hyderated Lime</a></li>
                               <li><a href="product-distemper.html" style="color: #fff">Distemper</a></li>
-							 <li><a href="product-topcoats.html" style="color: #fff">Top Coats</a></li>
+							  <li  class="active"><a href="product-topcoats.html" style="color: #fff !important; background-color:#b94a48">Top Coats</a></li>
                             </ul>
                     </li>
                     <li><a href="career.html">Career</a></li>`
@@ -73,7 +73,7 @@
                         <div class="row">
                             <div class="col-sm-12">
                                 <div class="carousel-content center centered">
-                                    <h2 class="animation animated-item-1" style="font-size: 50px; text-shadow: 2px 2px #333">Interior Emulsion</h2>
+                                    <h2 class="animation animated-item-1" style="font-size: 50px; text-shadow: 2px 2px #333">Top Coats</h2>
                                 </div>
                             </div>
                         </div>
@@ -101,7 +101,7 @@
                     <ul class="breadcrumb pull-right">
                         <li><a href="index.html">Home</a></li>
                         <li><a href="portfolio.html">Products</a></li>
-						<li class="active">Interior Emulsion</li>
+						<li class="active">Top Coats</li>
 					</ul>
                 </div>
             </div>
@@ -132,51 +132,41 @@
                               <div class="row clearfix-sm-2">
 								<div class="col-md-4 col-xs-6">
 									<div class="center">
-										<p><img class="product-list" src="product-images/thumb/cock-feather-touch.png" alt="Cock Feather Touch"></p>
-										<h5>Cock Feather Touch<small class="designation muted"></small></h5>
-										<p>Luxury Interior Emulsion</p>
-										<a href="#" id="product-type" onclick="productSearch('cock-feather-touch')" class="preview btn btn-danger">Explore</a>
+										<p><img class="product-list" src="product-images/thumb/cock-enamel.png" alt="Cock Enamel"></p>
+										<h5 id="product-name">Cock Enamel<small class="designation muted"></small></h5>
+										<p>Top Coat Enamel</p>
+										<a href="#" id="product-type" onclick="productSearch('cock-enamel')" class="preview btn btn-danger">Explore</a>
 									</div>
 								</div>
-								<div class="col-md-4 col-xs-6">
-									<div class="center">
-										<p><img class="product-list" src="product-images/thumb/cock-orchid.png" alt="Cock Orchid"></p>
-										<h5 id="product-name">Cock Orchid<small class="designation muted"></small></h5>
-										<p>Premium Interior Emulsion</p>
-										<a id="product-type" href="#" onclick="productSearch('cock-orchid')" class="preview btn btn-danger">Explore</a>
-									</div>
-								</div>
-								<div class="col-md-4 col-xs-6">
-									<div class="center">
-										<p><img class="product-list" src="product-images/thumb/active-touch.png" alt="Active Touch"></p>
-										<h5>Active Touch<small class="designation muted"></small></h5>
-										<p>Interior Plastic Emulsion</p>
-										<a id="product-type" href="#" onclick="productSearch('active-touch')" class="preview btn btn-danger">Explore</a>
-									</div>
-								</div>
-								<div class="col-md-4 col-xs-6">
-									<div class="center">
-										<p><img class="product-list" src="product-images/thumb/wall-passion.png" alt="Wall Passion"></p>
-										<h5>Wall Passion<small class="designation muted"></small></h5>
-										<p>Interior Emulsion</p>
-										<a id="product-type" href="#" onclick="productSearch('wall-passion')" class="preview btn btn-danger">Explore</a>
-									</div>
-								</div>
-                            </div><!--/.item-->
+                                <div class="col-md-4 col-xs-6">
+                                    <div class="center">
+                                        <p><img class="product-list" src="product-images/thumb/champion.png" alt="Champion"></p>
+                                        <h5 id="product-name">Champion<small class="designation muted"></small></h5>
+                                        <p>Truck Enamel</p>
+                                        <a href="#" id="product-type" onclick="productSearch('champion')" class="preview btn btn-danger">Explore</a>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-xs-6">
+                                    <div class="center">
+                                        <p><img class="product-list" src="product-images/thumb/enamel.png" alt="Enamel"></p>
+                                        <h5 id="product-name">Enamel<small class="designation muted"></small></h5>
+                                        <p>Top Coat Enamel</p>
+                                        <a href="#" id="product-type" onclick="productSearch('enamel')" class="preview btn btn-danger">Explore</a>
+                                    </div>
+                                </div>
+							  </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </div><!--/.row-->
+                </div><!--/.row-->
         
 	</section>	
  
     <section id="product-description" style="display:none" class="mv3">
-    <a id="back-button" class="back-button" href="product-interior.html"><img class="back-button" src="images/back.png" style="width:6vw"></a>
+        <a id="back-button" class="back-button" href="product-topcoats.html"><img class="back-button" src="images/back.png" style="width:6vw"></a>
         <div class="container" id="product-section">
             <div class="row">
-               
                <div class="col-md-6">
-                 
                  <div class="row" style="padding-top: 0px">
                      <div class="col-md-12" style="padding-top: 0px">
                       
@@ -252,21 +242,21 @@
                         </div>
                         <div class="col-md-6 col-xs-4" style="padding-top: 0px">
                             <div class="col-md-6" style="padding-top: 0px">
-                            <img class="stir" src="images/stir1.png">
+                            <img id="stir1" class="stir" src="images/stir1.png">
                             <p class="stir"> Shake & Stir </p>
                             </div>
                             <div class="col-md-6" style="padding-top: 0px">
-                            <img class="stir" src="images/stir2.png">
+                            <img id="stir2" class="stir" src="images/stir2.png">
                             <p class="stir"> Brush</p>
                             </div>    
                         </div>    
                         <div class="col-md-6 col-xs-4" style="padding-top: 0px">
                             <div class="col-md-6" style="padding-top: 0px">
-                            <img class="stir" src="images/stir3.png" style="width: 65px">
+                            <img id="stir3" class="stir" src="images/stir3.png" style="width: 65px">
                             <p class="stir"> Spray </p>
                             </div>
                             <div class="col-md-6" style="padding-top: 0px">
-                            <img class="stir" src="images/stir4.png">
+                            <img id="stir4" class="stir" src="images/stir4.png">
                             <p class="stir"> All Season </p>
                             </div>    
                         </div>                                                                          
@@ -286,7 +276,7 @@
         </div>
     </section>            
 
- <section id="bottom" class="wet-asphalt">
+<section id="bottom" class="wet-asphalt">
         <div class="container">
             <hr> <div class="gap"></div>
             <div class="row">

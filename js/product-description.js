@@ -185,10 +185,70 @@ function productSearch(name){
             	else if(name === 'manglam-gold'){
 	                document.getElementById('productName').innerHTML ="Manglam Gold";
 	                document.getElementById('product-img').src='product-images/full/manglam-gold.png';
-	            	document.getElementById('productDescription').innerHTML = "Rose cement paint for exterior use with water resistance";
+	            	document.getElementById('productDescription').innerHTML = "Mangalam Gold High performance lime for exterior or interior use";
 	            	document.getElementById('packs').src='images/packs6.png';
 	            	document.getElementById('warranty').src='images/warranty-no.png';
 	            	document.getElementById('wash').src='images/wash-high.png';
+	            	document.getElementById('coverage').src='images/PRODUCTS-29.png';
+	            	document.getElementById('shelf-life').innerHTML = "Shelf life : 3 Years From Date of Manufacture In Original Tightly Closed Containers Away From Direct Sunlight and Excessive Heat";
+	            }
+            	else if(name === 'cock-distemper'){
+	                document.getElementById('productName').innerHTML ="Cock Distemper";
+	                document.getElementById('product-img').src='product-images/full/cock-distemper.png';
+	            	document.getElementById('productDescription').innerHTML = "Cock distemper pouch with years of high performance";
+	            	document.getElementById('packs').src='images/packs7.png';
+	            	document.getElementById('warranty').src='images/warranty-no.png';
+	            	document.getElementById('wash').src='images/wash-high.png';
+	            	document.getElementById('coverage').src='images/PRODUCTS-30.png';
+	            	document.getElementById('shelf-life').innerHTML = "Shelf life : 3 Years From Date of Manufacture In Original Tightly Closed Containers Away From Direct Sunlight and Excessive Heat";
+	            }
+            	else if(name === 'distemper-bucket'){
+	                document.getElementById('productName').innerHTML ="Distemper | Bucket";
+	                document.getElementById('product-img').src='product-images/full/distemper-bucket.png';
+	            	document.getElementById('productDescription').innerHTML = "With high performance interior acrylic washable distemper.<br><strong> Categories: </strong> Rose / Manglam / Active";
+	            	document.getElementById('packs').src='images/packs8.png';
+	            	document.getElementById('warranty').src='images/warranty-no.png';
+	            	document.getElementById('wash').src='images/wash-medium.png';
+	            	document.getElementById('coverage').src='images/PRODUCTS-31.png';
+	            	document.getElementById('shelf-life').innerHTML = "Shelf life : 3 Years From Date of Manufacture In Original Tightly Closed Containers Away From Direct Sunlight and Excessive Heat";
+	            }
+	            else if(name === 'distemper-pouch'){
+	                document.getElementById('productName').innerHTML ="Distemper | Pouch";
+	                document.getElementById('product-img').src='product-images/full/distemper-pouch.png';
+	            	document.getElementById('productDescription').innerHTML = "With high performance interior acrylic washable distemper.<br><strong> Categories: </strong> Rose / Manglam / Active";
+	            	document.getElementById('packs').src='images/packs7.png';
+	            	document.getElementById('warranty').src='images/warranty-no.png';
+	            	document.getElementById('wash').src='images/wash-medium.png';
+	            	document.getElementById('coverage').src='images/PRODUCTS-29.png';
+	            	document.getElementById('shelf-life').innerHTML = "Shelf life : 3 Years From Date of Manufacture In Original Tightly Closed Containers Away From Direct Sunlight and Excessive Heat";
+	            }
+            	else if(name === 'cock-enamel'){
+	                document.getElementById('productName').innerHTML ="Cock Enamel";
+	                document.getElementById('product-img').src='product-images/full/cock-enamel.png';
+	            	document.getElementById('productDescription').innerHTML = "Hi-glass synthetic enamel with high strength and high durability";
+	            	document.getElementById('packs').src='images/packs4.png';
+	            	document.getElementById('warranty').src='images/warranty-no.png';
+	            	document.getElementById('wash').src='images/wash-best.png';
+	            	document.getElementById('coverage').src='images/PRODUCTS-28.png';
+	            	document.getElementById('shelf-life').innerHTML = "Shelf life : 3 Years From Date of Manufacture In Original Tightly Closed Containers Away From Direct Sunlight and Excessive Heat";
+	            }
+            	else if(name === 'champion'){
+	                document.getElementById('productName').innerHTML ="Champion";
+	                document.getElementById('product-img').src='product-images/full/champion.png';
+	            	document.getElementById('productDescription').innerHTML = "High performance recoating paint for truck with high durability and strength";
+	            	document.getElementById('packs').src='images/packs.png';
+	            	document.getElementById('warranty').src='images/warranty-no.png';
+	            	document.getElementById('wash').src='images/wash-high.png';
+	            	document.getElementById('coverage').src='images/PRODUCTS-28.png';
+	            	document.getElementById('shelf-life').innerHTML = "Shelf life : 3 Years From Date of Manufacture In Original Tightly Closed Containers Away From Direct Sunlight and Excessive Heat";
+	            }
+            	else if(name === 'enamel'){
+	                document.getElementById('productName').innerHTML ="Enamel";
+	                document.getElementById('product-img').src='product-images/full/enamel.png';
+	            	document.getElementById('productDescription').innerHTML = "Sythetic enamel with high durability and high strength.<br><strong> Categories: </strong> Rose / Manglam / Active";
+	            	document.getElementById('packs').src='images/packs7.png';
+	            	document.getElementById('warranty').src='images/warranty-no.png';
+	            	document.getElementById('wash').src='images/wash-medium.png';
 	            	document.getElementById('coverage').src='images/PRODUCTS-29.png';
 	            	document.getElementById('shelf-life').innerHTML = "Shelf life : 3 Years From Date of Manufacture In Original Tightly Closed Containers Away From Direct Sunlight and Excessive Heat";
 	            }
